@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NEXUS_IP", "NEXUS_IP\NEXUS_IP.csproj", "{2CA17FBD-1554-4059-9010-6DF2DB0113F5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL.NEXUS_IP", "DAL.NEXUS_IP\DAL.NEXUS_IP.csproj", "{9A81D3E3-A5D5-4875-8776-71ECA4A7EF36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BOL.NEXUS_IP", "BOL.NEXUS_IP\BOL.NEXUS_IP.csproj", "{F2855A73-D631-42FE-8445-54785ADFE182}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{2CA17FBD-1554-4059-9010-6DF2DB0113F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CA17FBD-1554-4059-9010-6DF2DB0113F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CA17FBD-1554-4059-9010-6DF2DB0113F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A81D3E3-A5D5-4875-8776-71ECA4A7EF36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A81D3E3-A5D5-4875-8776-71ECA4A7EF36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A81D3E3-A5D5-4875-8776-71ECA4A7EF36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A81D3E3-A5D5-4875-8776-71ECA4A7EF36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2855A73-D631-42FE-8445-54785ADFE182}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2855A73-D631-42FE-8445-54785ADFE182}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2855A73-D631-42FE-8445-54785ADFE182}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2855A73-D631-42FE-8445-54785ADFE182}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

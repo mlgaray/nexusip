@@ -8,8 +8,10 @@ namespace NEXUS_IP.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index()
+        public ActionResult Index(int id)
         {
+            bol.getByID(id);
+
             return View();
         }
 
